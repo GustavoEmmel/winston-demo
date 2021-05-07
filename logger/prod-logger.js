@@ -1,5 +1,5 @@
 const { format, createLogger, transports } = require("winston");
-const { timestamp, combine, colorize, errors, json } = format;
+const { timestamp, combine, errors, json } = format;
 
 function buildProdLogger() {
 
